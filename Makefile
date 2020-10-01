@@ -11,4 +11,6 @@ go-diagrams/app.png: go-diagrams/app.dot
 main: main.go
 	go build main.go
 
-
+clean:
+	rm -f main
+	rm -rf go-diagrams

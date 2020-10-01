@@ -1,4 +1,4 @@
-module github.com/defn/meh
+module github.com/jojomomojo/diagrams
 
 go 1.15
 
