@@ -6,7 +6,7 @@ go-diagrams/app.dot: main
 	./main
 
 go-diagrams/app.png: go-diagrams/app.dot
-	cd go-diagrams && dot -Tpng app.dot > app.png.1 && mv app.png1 app.png
+	cd go-diagrams && dot -Tpng app.dot > app.png.1 && mv app.png.1 app.png
 
 main: main.go
 	go build main.go
